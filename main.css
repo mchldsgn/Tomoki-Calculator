@@ -105,14 +105,17 @@ label ul {
   
 label a {
 	font-weight: 1000;
-	font-size: 4rem;
+	font-size: 2.5rem;
 	display: block;
 	color: #000000;
 	text-decoration: none;
-	
+	line-height: 6rem;
 }
   
-
+label a:hover {
+	color:#5BC1E3;
+	transition: 0.5s;
+}
 
 .title {
 	display: flex;
